@@ -1,1 +1,1 @@
-*{box-sizing:border-box;color:brown}
+.introduct{min-height:650px;background-image:url(../img/introduct/bg.png);background-size:cover;background-position:center}.header{padding-top:18px;display:flex;justify-content:space-between}.header__logo{max-width:251px}.header__logo__img{width:100%}*{box-sizing:border-box}a{text-decoration:none}.container{max-width:942px;width:100%}.btn{font-family:MuseoModerno;background-color:#c70101;text-transform:uppercase;color:#fff;font-weight:500}.btn_sm{display:block;width:150px;height:32px;font-size:12px}.btn:hover{color:#fff}

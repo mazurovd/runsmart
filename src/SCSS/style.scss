@@ -1,8 +1,40 @@
+@import "introduct.scss";
+
 $mainColor: #c70101;
 $twoColor: brown;
 
+/*
+font-family: 'MuseoModerno', cursive;
+*/
 
 *{
     box-sizing: border-box;
-    color: $twoColor;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 942px;
+    width: 100%;
+}
+
+.btn{
+    font-family: 'MuseoModerno';
+    background-color: $mainColor;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 500;
+
+    &_sm{
+        display: block;
+        width: 150px;
+        height: 32px;
+        font-size: 12px;
+    }
+
+    &:hover{
+        color: #FFF;
+    }  
 }
